@@ -5,7 +5,7 @@
   
   Notably, the program uses 2 integers to represent the game state. One represents all the changes made to the board, and one represents all of the moves of a given player (the AI). The binary values of the integers represent whether or not there is a mark on a particular position in the board. For example, if the moves being tracked were of X, the values would look like this:
   
-	  TEXT		BOARD		MOVES
+	  TEXT	    BOARD       MOVES
 	  X O -     1 1 0       1 0 0
 	  O - X     1 0 1       0 0 1
 	  - O -     0 1 0       0 0 0
